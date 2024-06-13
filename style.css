@@ -1,0 +1,171 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    margin-bottom: 90px;
+}
+.custom-navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+    
+}
+
+.outer {
+    display: flex;
+}
+
+.inner {
+    position: absolute;
+    margin-top: 244px;
+    margin-left: 139px;
+
+}
+
+.inner .hhead {
+    font-weight: 800;
+    font-size: 55px;
+
+}
+
+.inner .shead {
+    font-size: 20px;
+}
+
+.btn-raddius {
+    border-radius: 22px;
+}
+
+.btn-raddius:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.first-div {
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.second-div {
+    text-align: center;
+    color: white;
+    height: 90px;
+    background-color: #fac769;
+    padding: 20px;
+}
+
+.second-div h4 {
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.third-div .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fac769;
+    padding: 0px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+
+}
+
+.image-over {
+    position: absolute;
+}
+
+.image-over button {
+    color: black;
+    background-color: #fac769;
+    border: none;
+    border-radius: 22px;
+    height: 41px;
+    width: 127px;
+    margin-top: 18px;
+    margin-left: 15px;
+
+}
+
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery img {
+    width: 261px;
+    height: 174px;
+    padding: 5px;
+}
+
+.fourth-div {
+    background-color: #fac769;
+}
+
+.columnpadding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.columnpadding button {
+    margin-top: 18px;
+    margin-left: 103px;
+}
+
+.title {
+    display: flex;
+}
+
+.title .num {
+
+    color: #fac769;
+    font-size: 80px;
+    font-weight: 650;
+}
+
+.title .heading {
+    position: absolute;
+    font-weight: 750;
+    margin-top: 46px;
+    margin-left: 4px;
+    font-size: 17px;
+
+}
+
+.card1 p {
+    color: #767676;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.card1 a {
+    margin-left: -110px;
+    color: #fac769;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.map p{
+    color: #767676;
+
+}
+
+.ul-div a{
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+}
